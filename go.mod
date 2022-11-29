@@ -1,8 +1,9 @@
-module github.com/charmbracelet/vhs
+module github.com/JupiterEight/vhs
 
 go 1.18
 
 require (
+	github.com/JupiterEight/vhs
 	github.com/agnivade/levenshtein v1.1.1
 	github.com/charmbracelet/glamour v0.5.1-0.20221015050842-c4cd9ed13e4c
 	github.com/charmbracelet/keygen v0.3.0
