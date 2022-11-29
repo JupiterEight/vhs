@@ -3,7 +3,7 @@ module github.com/JupiterEight/vhs
 go 1.18
 
 require (
-	github.com/JupiterEight/vhs v.0.2.0
+	github.com/JupiterEight/vhs v0.2.0
 	github.com/agnivade/levenshtein v1.1.1
 	github.com/charmbracelet/glamour v0.5.1-0.20221015050842-c4cd9ed13e4c
 	github.com/charmbracelet/keygen v0.3.0
