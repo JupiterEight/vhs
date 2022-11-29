@@ -54,4 +54,8 @@ require (
 	golang.org/x/sys v0.0.0-20221013171732-95e765b1cc43
 )
 
-replace github.com/charmbracelet/vhs => github.com/JupiterEight/vhs
+replace (
+
+github.com/charmbracelet/vhs => github.com/JupiterEight/vhs@latest
+
+)
