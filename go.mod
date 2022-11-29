@@ -1,4 +1,4 @@
-module github.com/charmbracelet/vhs
+module github.com/JupiterEight/vhs
 
 go 1.18
 
