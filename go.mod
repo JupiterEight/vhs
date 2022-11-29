@@ -1,4 +1,4 @@
-module github.com/JupiterEight/vhs
+module github.com/charmbracelet/vhs
 
 go 1.18
 
@@ -53,3 +53,5 @@ require (
 	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b // indirect
 	golang.org/x/sys v0.0.0-20221013171732-95e765b1cc43
 )
+
+replace github.com/charmbracelet/vhs => github.com/JupiterEight/vhs
