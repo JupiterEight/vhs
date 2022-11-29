@@ -56,7 +56,5 @@ require (
 )
 
 replace (
-
 github.com/charmbracelet/vhs => ../JupiterEight/vhs
-
 )
