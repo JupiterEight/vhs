@@ -88,7 +88,7 @@ func New() VHS {
 
 	opts := DefaultVHSOptions()
 	path, _ := launcher.LookPath()
-	u := launcher.New().NoSandbox().Leakless(false).Bin(path).MustLaunch()
+	u := launcher.New().NoSandbox(true).Leakless(false).Bin(path).MustLaunch()
 	browser := rod.New().ControlURL(u).MustConnect()
 	page := browser.MustPage(fmt.Sprintf("http://localhost:%d", port))
 
