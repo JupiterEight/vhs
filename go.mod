@@ -57,6 +57,6 @@ require (
 
 replace (
 
-github.com/charmbracelet/vhs => github.com/JupiterEight/vhs
+github.com/charmbracelet/vhs => ../JupiterEight/vhs
 
 )
